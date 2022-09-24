@@ -1,7 +1,7 @@
 django-extract-templates
 ========================
 
-Copies Django's built-in templates and statics.
+Extracts Django's built-in templates and statics.
 
 Usage:
 

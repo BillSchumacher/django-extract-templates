@@ -9,7 +9,7 @@ import logging
 from typing import Optional, Tuple, List
 
 logger = logging.getLogger("django_extract_templates")
-logging.basicConfig(level=logging.DEBUG)
+
 
 try:
     import django
