@@ -17,7 +17,8 @@ setup(
     url="https://github.com/BillSchumacher/django-extract-templates",
     license="MIT",
     description="Copies Django's built-in templates and statics.",
-    long_description=open("README.rst").read() if exists("README.rst") else "",
+    long_description=open("README.md").read() if exists("README.md") else "",
+    long_description_content_type='text/markdown',
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Framework :: Django",
