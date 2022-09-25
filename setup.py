@@ -16,7 +16,7 @@ setup(
     ],
     url="https://github.com/BillSchumacher/django-extract-templates",
     license="MIT",
-    description="Copies Django's built-in templates and statics.",
+    description="Extracts Django's built-in templates and statics.",
     long_description=open("README.md").read() if exists("README.md") else "",
     long_description_content_type='text/markdown',
     classifiers=[
@@ -29,6 +29,6 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Topic :: Software Development :: Libraries",
     ],
-    version="0.1.0",
+    version="0.1.1",
     zip_safe=False,
 )
